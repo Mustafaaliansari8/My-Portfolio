@@ -40,7 +40,7 @@ export default function Navigation({ onNavigate }: NavigationProps) {
             }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            Portfolio
+            Sazid's Portfolio
           </motion.button>
           
           {/* Desktop Menu */}
