@@ -12,12 +12,12 @@ export default function Contact() {
 
   const contactInfo = [
     { icon: Mail, label: 'Email', value: 'sazid@developer.com', color: 'from-red-400 to-pink-500' },
-    { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', color: 'from-green-400 to-blue-500' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA', color: 'from-purple-400 to-pink-500' },
+    { icon: Phone, label: 'Phone', value: '+91 **********', color: 'from-green-400 to-blue-500' },
+    { icon: MapPin, label: 'Location', value: 'India , New Delhi', color: 'from-purple-400 to-pink-500' },
   ]
 
   const socialLinks = [
-    { icon: Github, url: 'https://github.com/Mustafaaliansari8', color: 'hover:text-gray-300' },
+    { icon: Github, url: 'https://github.com/Mustafaaliansari8', color: 'hover:text-blue-400' },
     { icon: Linkedin, url: 'https://www.linkedin.com/in/mustafa-ali-ansari-7267a3373/', color: 'hover:text-blue-400' },
     { icon: Twitter, url: 'https://x.com/iSazid08', color: 'hover:text-blue-300' },
   ]
