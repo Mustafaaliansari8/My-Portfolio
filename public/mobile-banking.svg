@@ -1,0 +1,37 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="300" fill="url(#banking-gradient)"/>
+<defs>
+<linearGradient id="banking-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#6366f1"/>
+<stop offset="100%" style="stop-color:#ec4899"/>
+</linearGradient>
+</defs>
+<!-- Mobile phone -->
+<rect x="150" y="40" width="100" height="180" rx="15" fill="white" opacity="0.95"/>
+<rect x="155" y="50" width="90" height="160" rx="8" fill="#f8fafc"/>
+<!-- Header -->
+<rect x="155" y="50" width="90" height="30" rx="8" fill="#6366f1"/>
+<text x="200" y="68" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">MyBank</text>
+<!-- Balance card -->
+<rect x="165" y="90" width="70" height="40" rx="6" fill="url(#card-gradient)"/>
+<text x="200" y="105" font-family="Arial" font-size="8" fill="white" text-anchor="middle">Balance</text>
+<text x="200" y="118" font-family="Arial" font-size="12" fill="white" text-anchor="middle" font-weight="bold">$12,450</text>
+<!-- Transaction list -->
+<rect x="165" y="140" width="70" height="15" rx="3" fill="#e2e8f0"/>
+<text x="170" y="150" font-family="Arial" font-size="7" fill="#475569">Coffee Shop -$4.50</text>
+<rect x="165" y="160" width="70" height="15" rx="3" fill="#dcfce7"/>
+<text x="170" y="170" font-family="Arial" font-size="7" fill="#166534">Salary +$3,200</text>
+<rect x="165" y="180" width="70" height="15" rx="3" fill="#e2e8f0"/>
+<text x="170" y="190" font-family="Arial" font-size="7" fill="#475569">Gas Station -$45</text>
+<!-- Fingerprint -->
+<circle cx="200" cy="235" r="12" fill="none" stroke="#6366f1" stroke-width="2"/>
+<circle cx="200" cy="235" r="8" fill="none" stroke="#6366f1" stroke-width="1"/>
+<circle cx="200" cy="235" r="4" fill="none" stroke="#6366f1" stroke-width="1"/>
+
+<defs>
+<linearGradient id="card-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#6366f1"/>
+<stop offset="100%" style="stop-color:#8b5cf6"/>
+</linearGradient>
+</defs>
+</svg>

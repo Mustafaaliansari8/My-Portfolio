@@ -1,0 +1,20 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="300" fill="url(#ecommerce-gradient)"/>
+<defs>
+<linearGradient id="ecommerce-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#667eea"/>
+<stop offset="100%" style="stop-color:#764ba2"/>
+</linearGradient>
+</defs>
+<!-- Shopping cart icon -->
+<rect x="50" y="80" width="300" height="140" rx="10" fill="white" opacity="0.9"/>
+<circle cx="120" cy="120" r="15" fill="#667eea"/>
+<rect x="140" y="110" width="80" height="20" rx="5" fill="#f0f0f0"/>
+<rect x="140" y="140" width="60" height="15" rx="3" fill="#e0e0e0"/>
+<rect x="250" y="110" width="80" height="50" rx="5" fill="#667eea" opacity="0.8"/>
+<text x="290" y="140" font-family="Arial" font-size="12" fill="white" text-anchor="middle">$99</text>
+<!-- Shopping cart -->
+<path d="M80 200 L90 200 L95 220 L320 220 L325 200 L100 200" stroke="#667eea" stroke-width="3" fill="none"/>
+<circle cx="110" cy="235" r="8" fill="#667eea"/>
+<circle cx="310" cy="235" r="8" fill="#667eea"/>
+</svg>
