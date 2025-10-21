@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Full Stack Developer Portfolio',
   description: 'Colorful and animated portfolio showcasing full stack development projects',
   icons: {
-    icon: '/sazid.png',
+    icon: '/gentleman-favicon.svg',
   },
 }
 
