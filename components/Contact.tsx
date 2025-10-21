@@ -17,9 +17,9 @@ export default function Contact() {
   ]
 
   const socialLinks = [
-    { icon: Github, url: 'https://github.com', color: 'hover:text-gray-300' },
-    { icon: Linkedin, url: 'https://linkedin.com', color: 'hover:text-blue-400' },
-    { icon: Twitter, url: 'https://twitter.com', color: 'hover:text-blue-300' },
+    { icon: Github, url: 'https://github.com/Mustafaaliansari8', color: 'hover:text-gray-300' },
+    { icon: Linkedin, url: 'https://www.linkedin.com/in/mustafa-ali-ansari-7267a3373/', color: 'hover:text-blue-400' },
+    { icon: Twitter, url: 'https://x.com/iSazid08', color: 'hover:text-blue-300' },
   ]
 
   const handleSubmit = (e: React.FormEvent) => {
