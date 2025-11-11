@@ -61,7 +61,7 @@ export default function Hero({ onViewProjects, onContact }: HeroProps) {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Hi, I'm{' '}
+          Hey, I'm{' '}
           <motion.span 
             className="bg-gradient-to-r from-accent to-white bg-clip-text text-transparent"
             animate={{ 
@@ -98,7 +98,7 @@ export default function Hero({ onViewProjects, onContact }: HeroProps) {
           </motion.button>
           <motion.button 
             onClick={onContact}
-            className="px-8 py-3 bg-white/20 backdrop-blur-sm text-white rounded-lg font-medium hover:bg-white/30 transition-all"
+            className="px-8 py-3 glass-effect text-white rounded-lg font-medium hover:scale-105 transition-all glow"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >

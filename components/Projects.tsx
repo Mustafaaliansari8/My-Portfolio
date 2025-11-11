@@ -7,7 +7,7 @@ export default function Projects() {
     {
       title: 'E-Commerce Platform',
       description: 'Full stack e-commerce platform with React, Node.js, and MongoDB',
-      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
+      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwindcss'],
       github: 'https://github.com/Mustafaaliansari8',
       demo: 'https://shopify.com',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center'
@@ -15,7 +15,7 @@ export default function Projects() {
     {
       title: 'Real-Time Chat App',
       description: 'WebSocket-based chat application with authentication and file sharing',
-      tech: ['Next.js', 'Socket.io', 'PostgreSQL', 'Prisma', 'JWT'],
+      tech: ['Next.js', 'React', 'Node.js'],
       github: 'https://github.com/Mustafaaliansari8',
       demo: 'https://discord.com',
       image: 'https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=300&fit=crop&crop=center'
@@ -23,7 +23,7 @@ export default function Projects() {
     {
       title: 'Task Management System',
       description: 'Collaborative project management tool with real-time updates',
-      tech: ['Vue.js', 'Laravel', 'MySQL', 'Redis', 'WebSockets'],
+      tech: ['Java', 'Mongodb'],
       github: 'https://github.com/Mustafaaliansari8',
       demo: 'https://trello.com',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop&crop=center'
@@ -31,7 +31,7 @@ export default function Projects() {
     {
       title: 'API Gateway Service',
       description: 'Microservices API gateway with rate limiting and authentication',
-      tech: ['Node.js', 'Docker', 'Kubernetes', 'Redis', 'JWT'],
+      tech: ['Node.js', 'Mongodb', 'Bootstrap'],
       github: 'https://github.com/Mustafaaliansari8',
       demo: 'https://aws.amazon.com/api-gateway',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=300&fit=crop&crop=center'
@@ -39,7 +39,7 @@ export default function Projects() {
     {
       title: 'Mobile Banking App',
       description: 'React Native banking app with biometric authentication',
-      tech: ['React Native', 'Node.js', 'PostgreSQL', 'AWS', 'Biometrics'],
+      tech: ['React', 'Node.js', 'Shadcn', 'AWS'],
       github: 'https://github.com/Mustafaaliansari8',
       demo: 'https://www.chase.com/digital/mobile-banking',
       image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=300&fit=crop&crop=center'
@@ -47,7 +47,7 @@ export default function Projects() {
     {
       title: 'Cloud Analytics Dashboard',
       description: 'Real-time analytics dashboard with data visualization',
-      tech: ['Angular', 'Python', 'FastAPI', 'PostgreSQL', 'Chart.js'],
+      tech: ['Html', 'Python', 'Css', 'Java'],
       github: 'https://github.com/Mustafaaliansari8',
       demo: 'https://analytics.google.com',
       image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&crop=center'
