@@ -10,17 +10,8 @@ export default function Contact() {
     message: ''
   })
 
-  const handleContactClick = (type: string, value: string, href: string) => {
-    if (type === 'Email' || type === 'Phone') {
-      navigator.clipboard.writeText(value)
-      alert(`${value} copied to clipboard!`)
-    } else {
-      window.open(href, '_blank')
-    }
-  }
-
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'imustafaali04@gmail.com', color: 'from-red-400 to-pink-500', href: 'mailto:imustafaali04@gmail.com' },
+    { icon: Mail, label: 'Email', value: 'imustafaali04@gmail.com', color: 'from-red-400 to-pink-500', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=imustafaali04@gmail.com' },
     { icon: Phone, label: 'Phone', value: '+91 8802379998', color: 'from-green-400 to-blue-500', href: 'tel:+918802379998' },
     { icon: MapPin, label: 'Location', value: 'India, New Delhi', color: 'from-purple-400 to-pink-500', href: 'https://www.google.com/maps/place/New+Delhi,+Delhi,+India' },
   ]
@@ -106,9 +97,11 @@ export default function Contact() {
             
             <div className="space-y-4 mb-8">
               {contactInfo.map((info, index) => (
-                <motion.div 
+                <motion.a 
                   key={info.label}
-                  onClick={() => handleContactClick(info.label, info.value, info.href)}
+                  href={info.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center space-x-4 glass-effect p-4 rounded-xl cursor-pointer"
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -126,7 +119,7 @@ export default function Contact() {
                     <p className="text-sm text-white/70">{info.label}</p>
                     <p className="font-semibold text-white">{info.value}</p>
                   </div>
-                </motion.div>
+                </motion.a>
               ))}
             </div>
             
